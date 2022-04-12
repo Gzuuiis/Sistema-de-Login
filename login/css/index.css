@@ -1,0 +1,29 @@
+body{
+    color: wheat;
+    background-color: #3A2D32;
+}
+form, .infos{
+    margin: 10% auto;
+    padding: 1em;
+    width: 40%;
+}
+
+@media screen and (max-width: 992px) {
+    form, .infos {
+        width: 80%;
+    }
+  }
+
+.form-row{
+    padding: 0.5em;
+}
+hr{
+    background-color: wheat;
+}
+.redirect{
+    color: wheat;
+    margin-left: 5%;
+}
+.redirect:hover{
+    color: white;
+}
