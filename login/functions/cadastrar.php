@@ -8,7 +8,7 @@
     $mail = $_POST['email_user'];
     $cpf = $_POST['cpf'];
 
-    // Puxando CPF passado pelo usuário e vendo se já existe no banco .
+    // Puxando CPF passado pelo usuário e verificando se já existe no banco.
     $sql2 = "SELECT `cpf` FROM `login` WHERE (`cpf` = '".$cpf."')";
     $query2 = mysqli_query($con,$sql2);
 
