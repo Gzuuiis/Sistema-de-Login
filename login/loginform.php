@@ -27,7 +27,7 @@
 
           <div class="form-row"> 
             <label for="senha_user"><strong>Senha:</strong></label>
-            <input class="form-control" type="text" maxlength="50" placeholder="Senha" name="senha_user" id="senha_user" required>
+            <input class="form-control" type="password" maxlength="50" placeholder="Senha" name="senha_user" id="senha_user" required>
           </div>
           
           <div class="form-row"> 
